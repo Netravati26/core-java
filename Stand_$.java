@@ -1,0 +1,5 @@
+class Stand_${
+
+
+
+}
