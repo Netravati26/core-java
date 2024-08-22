@@ -1,0 +1,70 @@
+
+
+1) i) public static void main (String args[])
+  public means a access specifier , static means a keyword , void means a return type , main means method name and String means array and it is main method which is essential to run the programme.
+
+iii) JVM ; It is a java vertual machine which is an abstract machine , doesn't physically exist
+* It Provides run time environment in which byte code can be exicuted.
+*It can also provides runtime environment programmes those are written in other languages later converted into java language. 
+
+JRE ; Java runtime environment  
+*Set of software tools which is used to develop software applications.
+*Provides .class files.
+*Contains JVM some other files in which JVM uses at runtime.  
+
+JDK ; Java Development kit 
+*It is a java Development environment which is used to develop software applications.
+*It contains JRE and some other development tools..
+
+ii) Class : class is an template which contains behaviour and states.
+State represents functionalities and behaviour represents method
+
+Object;It is the  copy of class or instance of class.
+
+
+2)Constructor; It is a Special type of method which has name same as class.
+
+There are two types
+Parameterized  Constructor (It contains parameters)
+Default Constructor (It doesn't contains any parameter)
+
+
+4) main method must be static , There are two types of method.. Static and Instance.
+
+5)Because it loads java classes.  
+
+7)class array{
+
+
+
+8)We can't use instance variables inside the static method
+because static methods belongs to the class itself while instance variables  to belongs to specific instance of class.
+ 
+9) Polymorphism; An object  beehaving differently at given instance of time.
+
+Compile Polymorphism( we use method overloading)
+Runtime Polymorphism(we use method overriding)
+
+parent class = new child class();
+
+
+public class Engineer{
+public void solveProblem(){
+System.out.println("problem solved by engineer");
+}
+
+public  CivilEngineer extends Engineer{
+@override
+public vois solveproblem(){
+System.out.println("Problem solved by civil engineer")
+}
+
+public class EngineerRunner{
+public static void main((String  []args){
+Engineer engineer=new isEngineer
+engineer.solveProblem
+}
+}
+ 
+
+10)Inheritance;process of acquiring properrties  of one class to another.
